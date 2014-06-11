@@ -105,3 +105,12 @@ a:focus {
   -moz-border-radius: 50px;
   float: right;
 }
+
+.post {
+  margin-bottom: 4rem;
+}
+
+.post-readmore {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
