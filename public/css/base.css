@@ -325,7 +325,7 @@ table.bordered td + td {
 
 	.nav-item { list-style-type: none; display: inline-block; margin-right: 1rem; }
 
-	.masthead { margin-top: 3rem; margin-bottom: 3rem; }
+	.masthead { margin-top: 3rem; margin-bottom: 2rem; }
 	.masthead #branding { margin-top: 22px; }
 	.masthead #branding a { font-weight: bold; color: #404040; }
 
@@ -341,11 +341,10 @@ table.bordered td + td {
 	.page-title { margin-bottom: 1.5rem; }
 
 	.post { margin-bottom: 4rem; }
-	.post-title { margin-bottom: 7px; }
+	.post-title { margin-bottom: 0px; }
 	.post-title a { color: #404040; }
 	.post-body { margin-top: 1rem; margin-bottom: 1rem; }
 	.post-date { margin-bottom: 1rem; }
-	.post-title+.post-date { margin-top: -.5rem; }
 	.post-readmore { margin-top: 1rem; margin-bottom: 1rem; }
 	.post-archive { margin-bottom: 1rem; }
 
