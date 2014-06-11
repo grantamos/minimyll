@@ -335,7 +335,8 @@ table.bordered td + td {
 	  border-radius: 50px;
 	  -webkit-border-radius: 50px;
 	  -moz-border-radius: 50px;
-	  float: right;
+	  margin: auto;
+	  display: block;
 	}
 
 	.page-title { margin-bottom: 1.5rem; }
@@ -370,3 +371,6 @@ table.bordered td + td {
 
   .pagination-item.older { float: left; }
   .pagination-item.newer { float: right; }
+
+  a.fa { color: #666; margin-left: .5rem; margin-right: .5rem; }
+  .connect-with-me { margin: auto; }
