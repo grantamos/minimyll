@@ -100,8 +100,8 @@ a:focus {
 }
 
 .masthead {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .masthead #branding {
@@ -129,8 +129,21 @@ a:focus {
   margin-bottom: 4rem;
 }
 
+.post-body {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.post-date {
+  margin-bottom: 1rem;
+}
+
+.post-title+.post-date {
+  margin-top: -.5rem;
+}
+
 .post-readmore {
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 

@@ -12,9 +12,11 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <div class="post-date">{{ post.date | date_to_string }}</div>
 
-    {{ post.excerpt }}
+    <div class="post-body">
+      {{ post.excerpt }}
+    </div>
 
     <h2 class="post-readmore">
       <a href="{{ site.baseurl }}{{ post.url }}">

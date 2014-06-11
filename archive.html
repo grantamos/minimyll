@@ -13,12 +13,12 @@ title: Archive
     {% endif %}
 
     <p class="post-archive">
-      <div class="post-title">
+      <div>
         <a href="{{ site.baseurl }}{{ post.url }}">
           {{ post.title }}
         </a>
       </div>
-      <span class="post-date">{{ post.date | date_to_string }}</span>
+      <div class="post-date">{{ post.date | date_to_string }}</div>
     </p>
 
     {% if post.previous != empty %}
