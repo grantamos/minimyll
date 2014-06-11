@@ -80,6 +80,8 @@ a:focus {
 
 .nav-item {
   list-style-type: none;
+  display: inline-block;
+  margin-right: 1rem;
 }
 
 .masthead {
