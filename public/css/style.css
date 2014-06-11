@@ -62,6 +62,21 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #404040;
   font-weight: bold;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+  margin-bottom: .5rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
 }
 
 p {
@@ -106,6 +121,10 @@ a:focus {
   float: right;
 }
 
+.page-title {
+  margin-bottom: 1.5rem;
+}
+
 .post {
   margin-bottom: 4rem;
 }
@@ -113,4 +132,12 @@ a:focus {
 .post-readmore {
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+
+.post-archive {
+  margin-bottom: 1rem;
+}
+
+.footer {
+  margin-top: 2rem;
 }
