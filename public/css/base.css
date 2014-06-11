@@ -349,7 +349,7 @@ table.bordered td + td {
 	.post-readmore { margin-top: 1rem; margin-bottom: 1rem; }
 	.post-archive { margin-bottom: 1rem; }
 
-	.footer { margin-top: 2rem; }
+	.footer { margin-top: 2rem; text-align: center; }
 
 	pre {
 	  display: block;
