@@ -15,5 +15,3 @@ paginate:         5
 version:          1.0.0
 
 github:           https://github.com/grantamos/minimyll
-
-#baseurl:          /minimyll

@@ -78,8 +78,8 @@ a:focus {
   text-decoration: underline;
 }
 
-nav a {
-  margin-right: 1rem;
+.nav-item {
+  list-style-type: none;
 }
 
 .masthead {
