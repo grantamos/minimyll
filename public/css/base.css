@@ -53,7 +53,7 @@
 	body {
 		background: #fff;
 		font: 18px/24px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		color: #787878;
+		color: #666;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
  }
@@ -71,7 +71,7 @@
 	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
 	h5 { font-size: 17px; line-height: 24px; }
 	h6 { font-size: 14px; line-height: 21px; }
-	.subheader { color: #787878; }
+	.subheader { color: #666; }
 
 	p { margin: 0 0 20px 0; }
 	p img { margin: 0; }
@@ -291,6 +291,8 @@
 	.page-title { margin-bottom: 1.5rem; }
 
 	.post { margin-bottom: 4rem; }
+	.post-title { margin-bottom: 7px; }
+	.post-title a { color: #404040; }
 	.post-body { margin-top: 1rem; margin-bottom: 1rem; }
 	.post-date { margin-bottom: 1rem; }
 	.post-title+.post-date { margin-top: -.5rem; }
