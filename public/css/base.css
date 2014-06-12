@@ -325,7 +325,7 @@ table.bordered td + td {
 
 	.nav-item { list-style-type: none; display: inline-block; margin-right: 1rem; }
 
-	.masthead { margin-top: 3rem; margin-bottom: 2rem; }
+	.masthead { margin-top: 3rem !important; margin-bottom: 2rem !important; }
 	.masthead #branding { margin-top: 22px; }
 	.masthead #branding a { font-weight: bold; color: #404040; }
 
@@ -373,4 +373,11 @@ table.bordered td + td {
   .pagination-item.newer { float: right; }
 
   a.fa { color: #666; margin-left: .5rem; margin-right: .5rem; }
-  .connect-with-me { margin: auto; }
+  .connect-with-me { margin: auto; text-align: center; }
+
+  .avatar-container { float: right; }
+
+  @media only screen and (max-width: 767px) {
+  	.masthead #nav, .masthead #branding { text-align: center; }
+  	.avatar-container { float: none; }
+  }
